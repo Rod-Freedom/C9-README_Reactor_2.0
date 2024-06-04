@@ -172,12 +172,12 @@ const startInquirer = () => {
             .prompt([
                 {
                     type: 'input',
-                    message: 'Let\'s get started with your GitHub username:\n',
+                    message: 'Let\'s get started with your GitHub username:',
                     name: 'user',
                 },
                 {
                     type: 'input',
-                    message: 'Now your repo\'s name:\n',
+                    message: 'Now your repo\'s name:',
                     name: 'repo',
                 }
             ])
