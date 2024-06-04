@@ -72,11 +72,15 @@ Then install the modules:
 $ npm i
 ```
 
+Find a tutorial [here](https://youtu.be/pwPLMPvRJBY?feature=shared)!
+
 <br>
 
 [(Back to the Top)](#about-the-project)
 
 ## Usage
+Find a tutorial [here](https://youtu.be/pwPLMPvRJBY?feature=shared)!
+
 The Reactor is easy and intuitive to use. To run it, open the README Reactor 2.0 repo folder in your terminal, then type `node index.js` and hit `enter`. You'll see a glitchy title, but don't worry — it's not malware; it's the app intro animation.
 ```bash
 $ node index.js
