@@ -45,7 +45,7 @@ const feedReactor = (readmeObj) => {
     const getDemo = () => {
         inquirer
             .prompt({
-                message: 'Save your demo into the "Atomic_README/assets" folder; it can be a .GIF, .png or .jpg...\nPress ENTER when you\'re done.',
+                message: 'Save your demo into the "Atomic_README/assets" folder; it can be a .GIF, .png or .jpg...\nPress ENTER when you\'re done.\n',
                 name: 'continue'
             })
             .then(() => {
@@ -78,43 +78,43 @@ const getContentFunc = (user, repo, license, nick) => {
             .prompt([
                 {
                     type: 'input',
-                    message: 'What\'s your project\'s name?',
+                    message: 'What\'s your project\'s name?\n',
                     name: 'title',
                 },
                 {
                     type: 'input',
-                    message: 'Now, write a great slogan!',
+                    message: 'Now, write a great slogan!\n',
                     name: 'slogan',
                 },
                 {
                     type: 'input',
-                    message: 'You\'ll need a description about your project.',
+                    message: 'You\'ll need a description about your project.\n',
                     name: 'desc',
                 },
                 {
                     type: 'checkbox',
-                    message: 'Which resources does your project rely on?',
+                    message: 'Which resources does your project rely on?\n',
                     choices: ['JavaScript', 'Node.js', 'npm packages', 'CSS', 'HTML', 'Python'],
                     name: 'resrc',
                 },
                 {
                     type: 'input',
-                    message: 'You should tell people how to get started/install your product.',
+                    message: 'You should tell people how to get started/install your product.\n',
                     name: 'start',
                 },
                 {
                     type: 'input',
-                    message: 'Now, explain how to use your product in the best way.',
+                    message: 'Now, explain how to use your product in the best way.\n',
                     name: 'usage',
                 },
                 {
                     type: 'input',
-                    message: 'Lastly, credit, where credit is due. Besides you, who would you like to acknowledge in the credits?',
+                    message: 'Lastly, credit, where credit is due. Besides you, who would you like to acknowledge in the credits?\n',
                     name: 'credits',
                 },
                 {
                     type: 'list',
-                    message: 'Would you like to include a demo as an image or GIF?',
+                    message: 'Would you like to include a demo as an image or GIF?\n',
                     choices: ['yes', 'no'],
                     name: 'demo',
                 },
@@ -172,12 +172,12 @@ const startInquirer = () => {
             .prompt([
                 {
                     type: 'input',
-                    message: 'Let\'s get started with your GitHub username:',
+                    message: 'Let\'s get started with your GitHub username:\n',
                     name: 'user',
                 },
                 {
                     type: 'input',
-                    message: 'Now your repo\'s name:',
+                    message: 'Now your repo\'s name:\n',
                     name: 'repo',
                 }
             ])
